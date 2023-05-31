@@ -1,0 +1,20 @@
+name: MultiplayerParkour
+version: '1.0-SNAPSHOT'
+main: com.waste.multiplayerparkour.MultiplayerParkour
+api-version: 1.16
+
+commands:
+  checkpointstick:
+    description: Gives you a checkpoint stick
+    usage: /checkpointstick
+    permission: multiplayerparkour.checkpointstick
+
+  removecheckpoint:
+    description: Removes a checkpoint
+    usage: /removecheckpoint
+    permission: multiplayerparkour.removecheckpoint
+
+  checkpointlist:
+    description: Lists all checkpoints
+    usage: /checkpointlist
+    permission: multiplayerparkour.checkpointlist
