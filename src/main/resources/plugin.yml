@@ -18,3 +18,8 @@ commands:
     description: Lists all checkpoints
     usage: /checkpointlist
     permission: multiplayerparkour.checkpointlist
+
+  checkpoint:
+    description: Teleports you to a checkpoint
+    usage: /checkpoint
+    permission: multiplayerparkour.checkpoint
